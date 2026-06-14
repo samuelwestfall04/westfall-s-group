@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aux Battle — Privacy Policy · Westfall Group</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #0a0a0a;
+    --white: #f5f4f0;
+    --accent: #c8b89a;
+    --gray: #888;
+    --light-gray: #1a1a1a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--black);
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, var(--black) 40%, transparent);
+  }
+
+  .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  .nav-contact {
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 2px;
+    transition: opacity 0.3s;
+  }
+
+  .nav-contact:hover { opacity: 0.6; }
+
+  /* PAGE */
+  .policy {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 12rem 4rem 6rem;
+  }
+
+  .policy-label {
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+  }
+
+  .policy-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.25rem;
+  }
+
+  .policy-title em {
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  .policy-updated {
+    font-size: 0.85rem;
+    color: var(--gray);
+    letter-spacing: 0.05em;
+    margin-bottom: 3.5rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #1f1f1f;
+  }
+
+  .policy h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--white);
+    margin-top: 3.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .policy p {
+    font-size: 1rem;
+    color: var(--gray);
+    line-height: 1.9;
+    margin-bottom: 1.25rem;
+  }
+
+  .policy p strong {
+    color: var(--white);
+    font-weight: 500;
+  }
+
+  .policy ul {
+    list-style: none;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+  }
+
+  .policy ul li {
+    font-size: 1rem;
+    color: var(--gray);
+    line-height: 1.8;
+    padding-left: 1.75rem;
+    margin-bottom: 0.9rem;
+    position: relative;
+  }
+
+  .policy ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.7rem;
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+
+  .policy ul li strong {
+    color: var(--white);
+    font-weight: 500;
+  }
+
+  .policy a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(200, 184, 154, 0.3);
+    transition: border-color 0.3s;
+  }
+
+  .policy a:hover { border-color: var(--accent); }
+
+  .policy-contact {
+    margin-top: 3.5rem;
+    padding-top: 3rem;
+    border-top: 1px solid #1f1f1f;
+  }
+
+  .policy-contact a {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: var(--white);
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 4px;
+    letter-spacing: 0.03em;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 3rem 4rem;
+    border-top: 1px solid #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9rem;
+    color: var(--gray);
+  }
+
+  .footer-copy {
+    font-size: 0.75rem;
+    color: #444;
+    letter-spacing: 0.1em;
+  }
+
+  /* MOBILE */
+  @media (max-width: 768px) {
+    nav { padding: 1.5rem 2rem; }
+    .policy { padding: 9rem 2rem 4rem; }
+    footer { padding: 2rem; flex-direction: column; gap: 1rem; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Westfall Group</a>
+  <a href="mailto:sam@thewestfallgrp.com" class="nav-contact">Get in touch</a>
+</nav>
+
+<main class="policy">
+  <p class="policy-label">Aux Battle</p>
+  <h1 class="policy-title">Privacy <em>Policy</em></h1>
+  <p class="policy-updated">Last updated: June 13, 2026</p>
+
+  <p>Aux Battle is a multiplayer music party game built by Westfall Group. We take your privacy seriously. This policy explains what information we collect, how we use it, and what we do not do.</p>
+
+  <h2>What We Collect</h2>
+  <p>Aux Battle collects the minimum information needed to run the game:</p>
+  <ul>
+    <li><strong>Player name</strong> — the name you enter when creating or joining a room. This is visible to other players in your game session and is stored temporarily in Firestore while the session is active.</li>
+    <li><strong>Anonymous user ID</strong> — a randomly generated identifier created by Firebase Authentication. It is not linked to your Apple ID, email address, phone number, or any other personal account. It exists only to keep you in the correct game room.</li>
+    <li><strong>Gameplay data</strong> — your song selections, scores, and round results within a game session. This data is stored in Firestore and automatically deleted after 24 hours via a TTL policy.</li>
+  </ul>
+
+  <h2>What We Do Not Collect</h2>
+  <ul>
+    <li>Email address, phone number, or any account credentials</li>
+    <li>Location data</li>
+    <li>Contacts or address book</li>
+    <li>Photos, camera, or microphone access</li>
+    <li>Apple Music account details — music playback is handled entirely by Apple's MusicKit framework and never passes through our servers</li>
+    <li>Device advertising identifiers (IDFA)</li>
+  </ul>
+
+  <h2>Analytics &amp; Tracking</h2>
+  <p>Aux Battle does not use any analytics SDKs, crash reporting services, or third-party tracking tools. We do not track you across other apps or websites.</p>
+
+  <h2>Advertising</h2>
+  <p>Aux Battle does not display ads and does not share any data with advertising networks.</p>
+
+  <h2>In-App Purchases</h2>
+  <p>Aux Battle offers an optional one-time in-app purchase to unlock additional content packs. All payment processing is handled entirely by Apple. We never see or store your payment information.</p>
+
+  <h2>Data Storage &amp; Retention</h2>
+  <p>Gameplay data (player names, song picks, scores) is stored in Google Firebase Firestore and is automatically deleted within 24 hours of a session ending. No gameplay data is retained long-term.</p>
+  <p>Your player name is saved locally on your device so you don't have to retype it. You can clear it at any time by deleting the app.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Aux Battle is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us and we will delete it promptly.</p>
+
+  <h2>Third-Party Services</h2>
+  <p>Aux Battle uses the following third-party services, each governed by their own privacy policy:</p>
+  <ul>
+    <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google Firebase</a> — real-time database and anonymous authentication</li>
+    <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple MusicKit</a> — music search and playback (optional)</li>
+    <li><a href="https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/" target="_blank" rel="noopener">iTunes Search API</a> — song search for users without Apple Music</li>
+  </ul>
+
+  <h2>Changes to This Policy</h2>
+  <p>If we make material changes to this privacy policy, we will update the date at the top of this page. Continued use of Aux Battle after changes are posted constitutes your acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>If you have any questions about this privacy policy, please contact us at:</p>
+  <div class="policy-contact">
+    <a href="mailto:sam@thewestfallgrp.com">sam@thewestfallgrp.com</a>
+    <p style="margin-top: 1rem; margin-bottom: 0;">Westfall Group LLC</p>
+  </div>
+</main>
+
+<footer>
+  <p class="footer-logo">Westfall Group</p>
+  <p class="footer-copy">© 2026 Westfall Group LLC · thewestfallgrp.com</p>
+</footer>
+
+</body>
+</html>
